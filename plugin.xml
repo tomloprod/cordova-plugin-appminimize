@@ -7,7 +7,7 @@
 	<license>MIT</license>
 	<keywords>cordova, ionic, minimize, android</keywords>
 	
-    <js-module src="www/AppMinimize.js" name="AppMinimixe">
+        <js-module src="www/AppMinimize.js" name="AppMinimize">
             <clobbers target="cordova.plugins.appMinimize" />
 	</js-module>
 		
