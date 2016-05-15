@@ -1,8 +1,6 @@
-# AppMinimize
-
 # cordova-plugin-appminimize
 
-This is a cordova plugin to minimizes the application in android devices
+**AppMinimize** is a cordova plugin to minimize the application in android devices
 
 ## Supported Platforms
 
@@ -10,29 +8,26 @@ This is a cordova plugin to minimizes the application in android devices
 
 ## Installation
 
-
 Cordova:
 
     cordova plugin add https://github.com/tomloprod/cordova-plugin-appminimize.git
 
 ## Usage
 
-This plugin exports an object at
+This plugin exports an object with one method called "minimize":
 
 ```javascript
-window.plugins.appMinimize
+window.plugins.appMinimize.minimize();
 ```
-
-with one method called "minimize".
 
 ##Example
 
 In this example the application is minimized by pressing the back button
 
 ```javascript
-  $ionicPlatform.registerBackButtonAction(function (event) {
-      event.preventDefault();
-      window.plugins.appMinimize.minimize();
-  }, 100);
+$ionicPlatform.registerBackButtonAction(function (event) {
+    event.preventDefault();
+    window.plugins.appMinimize.minimize();
+}, 100);
 ```
 
