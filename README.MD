@@ -20,7 +20,7 @@ This plugin exports an object with one method called "minimize":
 window.plugins.appMinimize.minimize();
 ```
 
-##Example
+##Ionic Example
 
 In this example the application is minimized by pressing the back button
 
