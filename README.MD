@@ -31,3 +31,13 @@ $ionicPlatform.registerBackButtonAction(function (event) {
 }, 100);
 ```
 
+
+##Ionic 2 Example
+
+In this example the application is minimized by pressing the back button
+
+```javascript
+this.platform.registerBackButtonAction(() => {
+    window['plugins'].appMinimize.minimize();
+});
+```
