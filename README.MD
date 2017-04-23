@@ -20,7 +20,7 @@ This plugin exports an object with one method called "minimize":
 window.plugins.appMinimize.minimize();
 ```
 
-##Ionic Example
+## Ionic Example
 
 In this example the application is minimized by pressing the back button
 
@@ -32,7 +32,7 @@ $ionicPlatform.registerBackButtonAction(function (event) {
 ```
 
 
-##Ionic 2 Example
+## Ionic 2 Example
 
 In this example the application is minimized by pressing the back button
 
