@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-appminimize",
+  "version": "1.0.0",
+  "description": "This is a cordova plugin to minimizes the application in android devices.",
+  "cordova": {
+    "id": "cordova-plugin-appminimize",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomloprod/cordova-plugin-appminimize"
+  },
+  "keywords": [
+    "cordova",
+    "ionic",
+    "minimize",
+	"android"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomloprod",
+  "license": "MIT"
+}
