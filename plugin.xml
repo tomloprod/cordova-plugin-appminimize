@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-appminimize" version="1.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-appminimize" version="1.0.0">
 
 
 	<name>AppMinimize</name>
 	<description>This is a cordova plugin to minimizes the application in android devices</description>
 	<license>MIT</license>
 	<keywords>cordova, ionic, minimize, android</keywords>
-	
+
         <js-module src="www/AppMinimize.js" name="AppMinimize">
             <clobbers target="cordova.plugins.appMinimize" />
 	</js-module>
-		
+
   <platform name="android">
-  
+
     <config-file target="res/xml/config.xml" parent="/*">
 		<feature name="AppMinimize">
 			<param name="android-package" value="tomloprod.AppMinimize"/>
@@ -20,7 +20,7 @@
     </config-file>
 
     <source-file src="src/android/AppMinimize.java" target-dir="src/tomloprod/appminimize"/>
-  
+
   </platform>
 
 </plugin>
