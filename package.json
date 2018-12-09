@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-appminimize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a cordova plugin to minimizes the application in android devices.",
   "cordova": {
     "id": "cordova-plugin-appminimize",
